@@ -49,7 +49,7 @@ function doPredict(predict) {
   for (var x in result.score) {
     score_string += x + " ->  " + result.score[x].toFixed(3) + ", "
   }
-  var maxlabel = Object.keys(result).reduce((a, b) => obj[a] > obj[b] ? a : b);
+  var maxlabel = Object.keys(result).reduce((a, b) => result[a] > result[b] ? a : b);
   console.log("MaxLabel:")
   console.log(maxlabel);
   //console.log(score_string);
