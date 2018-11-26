@@ -49,6 +49,7 @@ function doPredict(predict) {
   for (var x in result.score) {
     score_string += x + " ->  " + result.score[x].toFixed(3) + ", "
   }
+  console.log(Math.max(result.score));
   //console.log(score_string);
   status(
       score_string + ' elapsed: ' + result.elapsed.toFixed(3) + ' ms)');
