@@ -8,11 +8,11 @@ const HOSTED_URLS = {
 
 const examples = {
   'example1':
-      'His pale shoulders were bronzed by the sunshine.',
+      'His pale shoulders were bronzed by the sunshine',
   'example2':
-      'Alice was beginning to get very tired of sitting by her sister on the bank.',
+      'Alice was beginning to get very tired of sitting by her sister on the bank',
   'example3':
-      'There were a king with a large jaw and a queen with a plain face.'      
+      'There were a king with a large jaw and a queen with a plain face'      
 };
 
 function status(statusText) {
